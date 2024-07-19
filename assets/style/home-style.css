@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+body {
+    background-color: #cde8f0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #7bb0be;
+    padding: 1rem 0.7rem;
+    box-shadow: 0px 0px 12px  #000000f1;;
+}
+
+.item-list {
+    list-style: none;
+    margin:  0 2.5rem 5px 2.5rem;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.item-link {
+    text-decoration: none;
+    text-transform: capitalize;  /*Deixa a primeira letra maiúscula*/
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.item-list :hover {
+    color: #17363e;
+    transition: 0.4s;
+}
+
+/* pagina home */
+
+section {
+    padding: 59px 10rem 50px 10rem;
+    margin: 10px ;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+
+.intro h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: #1b6678;
+    padding-top: 30px;
+}
+
+.intro p {
+    max-width: 30rem;
+    font-size: 1rem;
+    margin-bottom: 5rem;
+}
+
+.intro img{
+   padding-top: 35px;
+}
+
+.contact {
+    width: 120px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    background: #1b6678;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* pagina skills */
+
