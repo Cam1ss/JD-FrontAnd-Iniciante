@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    
+    <link rel="stylesheet" href="../styles/style.css"/>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label>Idade:</label>
+            <input type="number" name="name" id="name" min="15" max="100" required>
+        </div>
+        <div>
+            <label>Objetivos:</label>
+            <br>
+            <input type="checkbox" id="estudar" value="estudar"> Estudar
+            <input type="checkbox" id="trabalhar" value="conseguir_emprego"> Conseguir um emprego
+            <input type="checkbox" id="divertir" value="divertir"> Divertir
+        </div>
+        <div>
+            <label>Genero</label>
+            <br>
+            <input type="radio" id="generoF" name="genero" value="fem"> Feminino
+            <input type="radio" id="generoM" name="genero" value="masc"> Masculino
+            <input type="radio" id="generoO" name="genero" value="outros"> Outros
+        </div>
+
+        <div>
+            <label>Cidade</label>
+            <select id="cidade" name="cidade" required>
+                <option value=""></option>
+                <option value="fortaleza">Fortaleza</option>
+                <option value="caucaia">Caucaia</option>
+                <option value="maracanau">Maracanaú</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Deixe sua mensagem:</label>
+            <textarea id="msg" name="msg" required></textarea>
+        </div>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

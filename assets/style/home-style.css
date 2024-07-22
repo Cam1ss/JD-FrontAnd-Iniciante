@@ -9,7 +9,10 @@
 body {
     background-color: #cde8f0;
     font-family: "Poppins", sans-serif;
+}
 
+html {
+    scroll-behavior: smooth;
 }
 
 .menu-list {
@@ -51,7 +54,6 @@ body {
 section {
     padding: 59px 10rem 50px 10rem;
     margin: 10px ;
-    
 }
 
 .intro {
